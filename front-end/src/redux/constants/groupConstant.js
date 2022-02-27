@@ -1,0 +1,11 @@
+
+export const GET_GROUP_PENDING = "GET_GROUP_PENDING"
+export const GET_GROUP_SUCCESS = "GET_GROUP_SUCCESS"
+export const GET_GROUP_FAIL = "GET_GROUP_FAIL"
+export const CREATE_GROUP = "CREATE_GROUP"
+export const RESET_GROUP = "RESET_GROUP"
+
+
+
+
+

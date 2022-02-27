@@ -1,0 +1,13 @@
+
+export const GET_FRIEND_PENDING = "GET_FRIEND_PENDING"
+export const GET_FRIEND_SUCCESS = "GET_FRIEND_SUCCESS"
+export const GET_FRIEND_FAIL = "GET_FRIEND_FAIL"
+export const ADD_FRIEND = "ADD_FRIEND"
+export const ACCEPT_FRIEND = "ACCEPT_FRIEND"
+export const CANCEL_FRIEND = "CANCEL_FRIEND"
+export const RESET_FRIEND = "RESET_FRIEND"
+
+
+
+
+

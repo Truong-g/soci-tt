@@ -1,0 +1,6 @@
+export const GET_STORY_PENDING = "GET_STORY_PENDING"
+export const GET_STORY_SUCCESS = "GET_STORY_SUCCESS"
+export const GET_STORY_FAIL = "GET_STORY_FAIL"
+export const CREATE_STORY = "CREATE_STORY"
+export const RESET_STORY = "RESET_STORY"
+

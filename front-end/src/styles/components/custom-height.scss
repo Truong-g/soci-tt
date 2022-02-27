@@ -1,0 +1,31 @@
+
+@media  only screen and (min-width: 1024px) {
+    .height-scroll-md, .height-scroll-lg, .height-scroll-xl{
+        height: calc(100vh - 96px);
+    }
+}
+
+
+.height-scroll-sm{
+    height: calc(100vh - 64px);
+}
+
+
+@media  only screen and (min-width: 1024px) {
+    .height-chat-xl{
+        height: calc(100vh - 234px);
+    }
+    .height-chat-lg{
+        height: calc(100vh - 234px);
+    }
+}
+
+@media  only screen and (max-width: 640px) {
+    .height-chat-sm{
+        height: calc(100vh - 114px);
+        @apply overflow-y-scroll
+    }
+}
+
+
+

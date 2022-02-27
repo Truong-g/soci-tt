@@ -1,0 +1,83 @@
+@keyframes quiet {
+    25%{
+      transform: scaleY(.6);
+    }
+    50%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(.8);
+    }
+  }
+  
+  @keyframes normal {
+    25%{
+      transform: scaleY(1);
+    }
+    50%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(.6);
+    }
+  }
+  @keyframes loud {
+    25%{
+      transform: scaleY(1);
+    }
+    50%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(1.2);
+    }
+  }
+  .soundwave{
+    display: flex;
+    justify-content: center;
+    background: white;
+    margin: 0;padding: 0;
+    align-items: center;
+    box-shadow: 0px -7px 8px -7px rgba(0,0,0,0.46);
+    padding-top: 10px;
+  }
+  
+  .boxContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    --boxSize: 4px;
+    --gutter: 2px;
+    width: calc((var(--boxSize) + var(--gutter)) * 15);
+  }
+  
+  .box__sound__wave{
+    transform: scaleY(.4);
+    height: 100%;
+    width: var(--boxSize);
+    background: #1A2DF1;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 8px;
+  }
+  
+  .box1{
+    animation-name: quiet;
+  }
+  
+  .box2{
+    animation-name: normal;
+  }
+  
+  .box3{
+    animation-name: quiet;
+  }
+  
+  .box4{
+    animation-name: loud;
+  }
+  
+  .box5{
+    animation-name: quiet;
+  }

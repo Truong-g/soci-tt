@@ -1,0 +1,41 @@
+
+
+.you{
+    @apply flex justify-start;
+    .box{
+        @apply w-[70%] flex;
+        .avatar{
+            @apply w-[35px] h-[35px] overflow-hidden rounded-full mr-2;
+        }
+        .content{
+            @apply text-left;
+            .text{
+                @apply bg-main-color p-2 rounded-[10px] text-[13px] text-white font-[600] inline-block;
+            }
+        }
+    }
+    .time{
+        @apply text-left;
+    }
+
+}
+
+.me{
+    @apply flex justify-end;
+    .box{
+        @apply w-[70%] flex flex-row-reverse;
+        .avatar{
+            @apply w-[35px] h-[35px] overflow-hidden rounded-full ml-2;
+        }
+        .content{
+            @apply text-right;
+            .text{
+                @apply bg-[#ddd] p-2 rounded-[10px] text-[13px] text-[#555] font-[600] inline-block;
+            }
+        }
+    }
+    .time{
+        @apply text-right;
+
+    }
+}

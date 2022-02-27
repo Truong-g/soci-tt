@@ -1,0 +1,30 @@
+
+
+  .txt{
+    @apply text-[12px] text-[#222] font-[500];
+
+  }
+
+  .txt-bold-s{
+    @apply text-[12px] text-[#222] font-[600];
+
+  }
+
+  .txt-bold-m{
+    @apply text-[12px] text-[#222] font-[700];
+
+  }
+
+  .overflow-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .overflow-text-1{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
